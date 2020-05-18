@@ -423,6 +423,8 @@ def gsm_init():
     gsm_ser.bytesize = serial.EIGHTBITS
     gsm_ser.parity = serial.PARITY_NONE
     gsm_ser.stopbits = serial.STOPBITS_ONE
+    
+    print "checking serial port communication"
 #---------------------------------------------------------------------
     
     try:
